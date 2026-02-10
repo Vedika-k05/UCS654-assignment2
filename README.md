@@ -1,7 +1,7 @@
 # UCS654-assignment2
 # Learning Probability Density Functions using GAN
 
-## Methodology
+### Methodology
 
 - The NO₂ concentration data was extracted from the India Air Quality dataset.
 - Missing values were removed before further processing.
@@ -29,6 +29,6 @@ The parameters a and b were computed using the university roll number (102313060
 - A dominant mode and right-skewed behavior are observed.
 - This indicates successful learning of the underlying distribution.
   
-## Conclusion
+### Conclusion
 The GAN successfully learned the probability density function of the transformed variable using only data samples. KDE applied on generated samples provided a smooth and reliable PDF approximation without assuming any parametric distribution.
 
